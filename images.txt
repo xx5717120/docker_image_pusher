@@ -5,3 +5,10 @@ developer024/networkdownload
 6053537/portainer-ce
 jeessy/ddns-go
 linuxserver/webtop:ubuntu-xfce
+linuxserver/webtop:ubuntu-kde
+ffdfgdfg/nps
+ffdfgdfg/npc
+jonnyan404/verysync
+xhofe/alist:latest
+ghcr.io/jellyfin/jellyfin:latest
+ghcr.io/jaywcjlove/linux-command:latest

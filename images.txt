@@ -13,4 +13,4 @@ xhofe/alist:latest
 ghcr.io/jellyfin/jellyfin:latest
 ghcr.io/jaywcjlove/linux-command:latest
 ubuntu
-ghcr.io/senshinya/moontv:latest
+ghcr.io/senshinya/moontv

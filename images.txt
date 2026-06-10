@@ -56,7 +56,7 @@ docker:24-cli
 docker/compose:latest
 jeessy/ddns-go:latest
 tailscale/tailscale:latest
-wg-easy/wg-easy:latest
+weejewel/wg-easy:latest
 xhofe/alist:latest
 nextcloud:latest
 filebrowser/filebrowser:latest

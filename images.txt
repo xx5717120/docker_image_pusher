@@ -55,8 +55,6 @@ containrrr/watchtower:latest
 docker:24-cli
 docker/compose:latest
 jeessy/ddns-go:latest
-ffdfgdfg/nps:latest
-ffdfgdfg/npc:latest
 tailscale/tailscale:latest
 wg-easy/wg-easy:latest
 xhofe/alist:latest

@@ -9,8 +9,8 @@ python:3.12-alpine
 node:22-alpine
 node:20-alpine
 golang:1.22-alpine
-openjdk:21-slim
-openjdk:17-slim
+eclipse-temurin:21-jre-alpine
+eclipse-temurin:17-jre-alpine
 mysql:8.0
 mysql:5.7
 postgres:16-alpine
@@ -19,7 +19,7 @@ mongo:7
 redis:7-alpine
 redis:6-alpine
 mariadb:11
-sqlserver:2022-latest
+mcr.microsoft.com/mssql/server:2022-latest
 nginx:stable-alpine
 nginx:stable-perl
 nginx:alpine

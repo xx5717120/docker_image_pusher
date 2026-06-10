@@ -1,12 +1,9 @@
-# ===== 基础镜像 =====
 alpine:latest
 alpine:3.19
 ubuntu:22.04
 ubuntu:24.04
 debian:bookworm-slim
 busybox:latest
-
-# ===== 编程语言环境 =====
 python:3.12-slim
 python:3.12-alpine
 node:22-alpine
@@ -14,8 +11,6 @@ node:20-alpine
 golang:1.22-alpine
 openjdk:21-slim
 openjdk:17-slim
-
-# ===== 数据库 =====
 mysql:8.0
 mysql:5.7
 postgres:16-alpine
@@ -25,8 +20,6 @@ redis:7-alpine
 redis:6-alpine
 mariadb:11
 sqlserver:2022-latest
-
-# ===== Web 服务器 & 反向代理 =====
 nginx:stable-alpine
 nginx:stable-perl
 nginx:alpine
@@ -36,20 +29,12 @@ caddy:latest
 traefik:latest
 nginxproxy/nginx-proxy:latest
 jc21/nginx-proxy-manager:latest
-
-# ===== 微服务 & API 网关 =====
-soul:mongo
 apache/apisix:latest
 kong:latest
-
-# ===== DevOps & CI/CD =====
 jenkins/jenkins:lts
 gitlab/gitlab-ce:latest
 gitlab/gitlab-runner:latest
 sonarqube:community
-harbor/harbor-core:latest
-
-# ===== 监控 & 日志 =====
 prom/prometheus:latest
 grafana/grafana:latest
 prom/node-exporter:latest
@@ -58,54 +43,32 @@ grafana/loki:latest
 grafana/promtail:latest
 influxdb:latest
 telegraf:latest
-
-# ===== 消息队列 =====
 rabbitmq:3-management
 rabbitmq:3-alpine
 apache/kafka:latest
 nats:latest
 emqx:latest
-
-# ===== 容器 & 编排工具 =====
 portainer/portainer-ce:latest
 portainer/agent:latest
 rancher/rancher:latest
 containrrr/watchtower:latest
 docker:24-cli
 docker/compose:latest
-
-# ===== 内网穿透 & VPN =====
 jeessy/ddns-go:latest
 ffdfgdfg/nps:latest
 ffdfgdfg/npc:latest
 tailscale/tailscale:latest
 wg-easy/wg-easy:latest
-
-# ===== 文件管理 & 同步 =====
 xhofe/alist:latest
 nextcloud:latest
 filebrowser/filebrowser:latest
 jonnyan404/verysync:latest
 rclone/rclone:latest
-
-# ===== 下载工具 =====
 linuxserver/qbittorrent:latest
 linuxserver/transmission:latest
 aria2:latest
-yaney/docker-aria2:latest
-
-# ===== 媒体服务 =====
-jellyfin/jellyfin:latest
-linuxserver/plex:latest
-emby/embyserver:latest
 linuxserver/ffmpeg:latest
-
-# ===== 远程桌面 & 开发环境 =====
 linuxserver/webtop:ubuntu-xfce
 linuxserver/webtop:ubuntu-kde
 linuxserver/code-server:latest
-
-# ===== 网络工具 =====
-gcr.io/kaniko-project/executor:latest
 nicolaka/netshoot:latest
-wvfirl/dnsping:latest
